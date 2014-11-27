@@ -26,7 +26,7 @@
 .col-5{ width: 76.30%; }
 .col-6{ width: 91.56%;   }
 
-.outline, .outline *{
+.wrapper, .wrapper *{
     outline: 1px solid #F6A1A1;
 }
 
