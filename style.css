@@ -1,6 +1,5 @@
 .grid-container *{
     box-sizing: border-box;
-    max-width: 1200px;
 }
 
 /*-- our cleafix hack -- */
@@ -17,7 +16,7 @@
     width: 16.66%;
     /*-- our gutter -- */
     padding: 12px;
-    background-color: #FFDCDC;
+    background-color: #8C489F;
 }
 
 .col-1{ width: 16.66%; }
@@ -28,15 +27,15 @@
 .col-6{ width: 100%;   }
 
 .wrapper, .wrapper *{
-    outline: 1px solid #F6A1A1;
+    outline: 1px solid #C3C3E5;
 }
 
 
 /*-- some extra column content styling --*/
 [class*='col-'] > p {
- background-color: #FFC2C2;
+ background-color: #F1F0FF;
  padding: 0;
  margin: 0;
  text-align: center;
- color: white;
+ color: #443266;
 }
