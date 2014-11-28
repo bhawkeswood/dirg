@@ -39,3 +39,45 @@
  text-align: center;
  color: #443266;
 }
+
+/*-- TABLET --*/
+
+@media all and (max-width:800px){
+  .col-1{ width: 33.33%;  }
+  .col-2{ width: 50%;     }
+  .col-3{ width: 50%;     }
+  .col-4{ width: 100%;    }
+  .col-5{ width: 100%;    }
+  .col-6{ width: 100%;    }
+
+/*-- some exceptions where there are over-hangs -- */
+
+  .row .col-2:last-of-type{
+    width: 100%;
+  }
+
+  .row .col-1 ~ .col-5{
+    width: 66.66%;
+  }
+  .row .col-5 ~ .col-1{
+    width: 100%;
+  }
+}
+
+
+/*-- MOBILE --*/
+@media all and (max-width:650px){
+  .col-1{ width: 50%;     }
+  .col-2{ width: 100%;    }
+  .col-3{ width: 100%;    }
+  .col-4{ width: 100%;    }
+  .col-5{ width: 100%;    }
+  .col-6{ width: 100%;    }
+
+
+  /*-- some exceptions where there are over-hangs -- */
+
+  .row .col-1 ~ .col-5{
+    width: 50%;
+  }
+}
