@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-/*-- our cleafix hack -- */
+/*-- cleafix hack -- */
 .row:before,
 .row:after {
     content:"";
@@ -14,17 +14,30 @@
     float: left;
     min-height: 1px;
     width: 16.66%;
-    /*-- our gutter -- */
+
+    /*-- gutter -- */
     padding: 12px;
     background-color: #8C489F;
 }
 
-.col-1{ width: 16.66%; }
-.col-2{ width: 33.33%; }
-.col-3{ width: 50%;    }
-.col-4{ width: 66.66%; }
-.col-5{ width: 83.33%; }
-.col-6{ width: 100%;   }
+.col-1{
+  width: 16.66%;
+}
+.col-2{
+  width: 33.33%;
+}
+.col-3{
+  width: 50%;
+}
+.col-4{
+  width: 66.66%;
+}
+.col-5{
+  width: 83.33%;
+}
+.col-6{
+  width: 100%;
+}
 
 .wrapper, .wrapper *{
     outline: 1px solid #C3C3E5;
@@ -43,12 +56,24 @@
 /*-- TABLET --*/
 
 @media all and (max-width:800px){
-  .col-1{ width: 33.33%;  }
-  .col-2{ width: 50%;     }
-  .col-3{ width: 50%;     }
-  .col-4{ width: 100%;    }
-  .col-5{ width: 100%;    }
-  .col-6{ width: 100%;    }
+  .col-1{
+    width: 33.33%;
+  }
+  .col-2{
+    width: 50%;
+  }
+  .col-3{
+    width: 50%;
+  }
+  .col-4{
+    width: 100%;
+  }
+  .col-5{
+    width: 100%;
+  }
+  .col-6{
+    width: 100%;
+  }
 
 /*-- some exceptions where there are over-hangs -- */
 
@@ -67,12 +92,24 @@
 
 /*-- MOBILE --*/
 @media all and (max-width:650px){
-  .col-1{ width: 50%;     }
-  .col-2{ width: 100%;    }
-  .col-3{ width: 100%;    }
-  .col-4{ width: 100%;    }
-  .col-5{ width: 100%;    }
-  .col-6{ width: 100%;    }
+  .col-1{
+    width: 50%;
+  }
+  .col-2{
+    width: 100%;
+  }
+  .col-3{
+    width: 100%;
+  }
+  .col-4{
+    width: 100%;
+  }
+  .col-5{
+    width: 100%;
+  }
+  .col-6{
+    width: 100%;
+  }
 
 
   /*-- some exceptions where there are over-hangs -- */
